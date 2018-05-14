@@ -1,0 +1,17 @@
+
+#change mone 1st method
+
+money = 32
+coins = [20,8,1]
+count = [0,0,0]
+for i in range(len(coins)) :
+    while  money > coins[i] :
+        money = money - coins[i]
+        count[i] = count[i] + 1
+
+
+
+
+
+print (count)
+
